@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    background-attachment: fixed;
+}
+
+.card {
+    width: 45rem;
+    /* height: 14rem; */
+    margin: auto;
+}
+
+.card::after {
+    background: url('https://images.pexels.com/photos/1629212/pexels-photo-1629212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') center center/cover;
+    opacity: 0.5;
+}
+
+#Addcard {
+    margin: 10px auto;
+}
+
+#btnAdd {
+    margin: 10px;
+}
+
+.heading {
+    color: white;
+}
+
+.btn {
+    background-color: #000000d6;
+}
+
+.btn:hover {
+    background-color: #212529c9;
+}
